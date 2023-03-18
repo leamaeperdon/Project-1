@@ -1,0 +1,158 @@
+body {
+    background-image: url(VA/bg4.jpg);
+    background-size: cover;
+}
+header {
+  height: 110px;
+  width: 950px;
+  display: flex;
+  padding-left: 70px;
+  background-image: url(VA/bg2.png);
+  margin-left: 50px;
+}
+.container mt-3 {
+  height: auto;
+  width: 800px;
+}
+
+.services {
+    margin: 90px auto;
+    text-align: center;
+
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+h1:after {
+    content: '';
+    background: white;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 10px auto;
+}
+.icon {
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.col-md-3 :hover {
+    box-shadow: 5px 7px 9px --3px rgba(255,255,255,0.5); 
+    cursor: pointer;
+}
+
+  h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 160px;
+  }
+  h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .get_in_touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .get_in_touch .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca ;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+  .contact-form .input-text:focus  + .label, 
+  .contact-form .input-text.not-empty +.label  {
+  transform: translateY(-24px);
+  }
+  .contact-form .input-text:focus 
+   {
+    outline: none;
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    line-height: 26px;
+    font-weight: 200;
+    color: #5543ca;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #a72879, #064497);
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+  }
+  .main-nav {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    word-spacing: 40px;
+    justify-content: flex-end;
+  }
+  .main-nav ul a {
+    text-transform: capitalize;
+    padding-right: 25px;
+    color: white;
+  
+  }
+.sub-nav {
+    width: 30%;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.sub-nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+footer {
+  height: 140px;
+  width: 800px;
+  background-image: url(VA/bg2.png);
+  padding-top: 10px;
+  margin-top: 25px;
+  margin-left: 130px;
+  width: 80%;
+}

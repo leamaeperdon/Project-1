@@ -1,0 +1,35 @@
+body {
+    background-image: url(VA/bg4.jpg);
+    background-size: cover;
+}
+header {
+    height: 130px;
+    width: 1000px;
+    display: flex;
+    padding-left: 70px;
+    background-image: url(VA/bg2.png);
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 250px;
+  }
+  h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container mt-3 {
+    height: auto;
+    width: 800px;
+  }
+  img {
+    max-width: 100%;
+    max-width: 100%;
+  }
+  @media screen and (min-width:576px){
+    .carousel-inner {
+      display: flex;
+    }
+  }
+  .carousel {
+    width:600px;
+    height:400px;
+  }
